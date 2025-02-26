@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="flex flex-wrap justify-between items-center">
 
           <div className="w-full md:w-1/3 mb-6 md:mb-0">
-            <h2 className="font-bold text-[#FFDD57] text-4xl mb-4">EuroAxis</h2>
+            <h2 className="font-bold text-[#FFDD57] text-4xl mb-4">EupraAxis</h2>
             <p className="text-sm leading-relaxed mr-10">
             Our educational website stands out by offering a personalized learning experience that adapts to each student's unique needs, ensuring maximum engagement and progress. 
             </p>
@@ -36,7 +36,7 @@ const Footer = () => {
 
         <div className="border-t border-gray-700 mt-8 pt-6 text-center">
           <p className="text-sm text-white">
-            &copy; {new Date().getFullYear()} SIAC. All rights reserved.
+            &copy; {new Date().getFullYear()} EupraAxis. All rights reserved.
           </p>
         </div>
       </div>

@@ -11,7 +11,7 @@ const Navbar = () => {
             <div className="container mx-auto flex justify-between items-center">
 
                 <div className="text-white flex text-4xl font-extrabold">
-                    Euro<span className='text-[#FFDD57]'>Axis</span>
+                    Eupra<span className='text-[#FFDD57]'>Axis</span>
                 </div>
 
 
