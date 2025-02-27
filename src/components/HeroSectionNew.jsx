@@ -20,7 +20,7 @@ const HeroSectionNew = () => {
                 <img
                     src={star}
                     alt="Educational Image"
-                    className="w-full md:w-3/4 lg:w-2/3 h-auto transform transition-all duration-700 ease-in-out animate-fadeIn"
+                    className="w-full md:w-3/4 lg:w-2/3 h-auto transform transition-all duration-700 ease-in-out animate-pulse hover:animate-bounce"
                 />
             </div>
         </div>

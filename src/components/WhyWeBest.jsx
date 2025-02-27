@@ -30,13 +30,21 @@ const WhyWeBest = () => {
 
             <div className="flex flex-wrap justify-center gap-10 mt-10">
                 {ourExpertise.map((expertise) => (
-                    <div key={expertise.id} className="bg-white p-4 rounded-lg shadow-lg max-w-xs w-full text-center">
-                        <img src={expertise.image} alt={expertise.heading} className="-mb-2 w-auto h-auto  rounded-md mx-auto" />
+                    <div
+                        key={expertise.id}
+                        className="bg-white p-4 rounded-lg shadow-lg max-w-xs w-full text-center transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-xl hover:bg-gray-100 focus:outline-none"
+                    >
+                        <img
+                            src={expertise.image}
+                            alt={expertise.heading}
+                            className="-mb-2 w-auto h-auto rounded-md mx-auto transition-transform duration-300 ease-in-out hover:scale-110"
+                        />
                         <h3 className="text-2xl font-semibold text-blue-700 mb-2">{expertise.heading}</h3>
                         <p className="text-gray-700">{expertise.description}</p>
                     </div>
                 ))}
             </div>
+
         </section>
     );
 }

@@ -44,36 +44,36 @@ const Navbar = () => {
                     </svg>
                 </button>
 
-                {/* Desktop Menu */}
+
                 <div
                     className={`lg:flex space-x-10 ${isMenuOpen ? 'flex flex-col items-center space-y-6 mt-4' : 'hidden'} lg:block transition-all duration-300 ease-in-out`}>
                     <Link
-                        to={'#'}
-                        className="text-white font-bold text-lg hover:text-[#525FE1] transition-all duration-300"
+                        to={'/'}
+                        className="text-white font-bold text-lg hover:text-[#FFDD57] hover:text-xl transition-all duration-300"
                     >
                         Home
                     </Link>
                     <Link
                         to={'#'}
-                        className="text-white font-bold text-lg hover:text-[#525FE1] transition-all duration-300"
+                        className="text-white font-bold text-lg hover:text-[#FFDD57] hover:text-xl transition-all duration-300"
                     >
                         About Us
                     </Link>
                     <Link
                         to={'#'}
-                        className="text-white font-bold text-lg hover:text-[#525FE1] transition-all duration-300"
+                        className="text-white font-bold text-lg hover:text-[#FFDD57] hover:text-xl transition-all duration-300"
                     >
                         Our Strength
                     </Link>
                     <Link
                         to={'#'}
-                        className="text-white font-bold text-lg hover:text-[#525FE1] transition-all duration-300"
+                        className="text-white font-bold text-lg hover:text-[#FFDD57] hover:text-xl transition-all duration-300"
                     >
                         Our Services
                     </Link>
                     <Link
                         to={'#'}
-                        className="text-white font-bold text-lg hover:text-[#525FE1] transition-all duration-300"
+                        className="text-white font-bold text-lg hover:text-[#FFDD57] hover:text-xl transition-all duration-300"
                     >
                         Contact Us
                     </Link>
